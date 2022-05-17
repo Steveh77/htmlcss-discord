@@ -46,6 +46,7 @@ nav{
 }
 .logo{
     height: 30px;
+    color: white;
 
 }
 .menu-nav{
@@ -114,5 +115,16 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 100px
+    margin: 200px
 }
+.star{
+    padding: 40px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.star-button{
+    color: white;
+    background-color: rgb(142,161,225);
+}
+
