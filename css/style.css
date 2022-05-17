@@ -1,5 +1,118 @@
+/* colors
+testi bianchi  white
+nero    rgb(35,39,42)
+nav     rgb(49,97,224) */
+
+
+/* utils */
+.border-radius{
+    border-radius: 25px;
+    border: none;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+.display-flex-center{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 9px;
+}
+h1{
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+p{
+    font-size: large;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+/* HEADER */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+    padding: 30px;
+    background-color: rgb(49,97,224);
+}
+.logo{
+    height: 30px;
+
+}
+.menu-nav{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    color: white;
+}
+.button-a{
+    padding: 10px;
+
+}
+/* MAIN */
+/* TESTO CENTRALE JUMBO*/
+.jumbo{
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.download-section{
+    flex-direction: column;
+    min-height: 400px;
+    width: 600px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.download-buttons{
+    flex-direction: row;
+    padding: 30px;  
+}
+.button-mac, .button-desktop{
+    padding: 15px;
+    font-size: large;
+}
+.button-desktop{
+    background-color: black;
+    color: white;
+}
+/* TESTO ROW-REVERSE */
+.box-item{
+    display: flex;
+    height: 600px;
+    background-color: white;
+}
+.immagine-item{
+    flex-basis: 60%;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+.testo-box-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+
+/* TESTO CENTRALE COLUNM */
+
+.box-item-centrale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px
 }
